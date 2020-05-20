@@ -1,4 +1,5 @@
-####Block的特性
+Block的特性
+
 - 保存一段代码块
 - 随时随地的持有
 - 匿名函数 —— block -> 对象 -> struct 
@@ -340,6 +341,9 @@ static void __main_block_func_0(struct __main_block_impl_0 *__cself) {
 ```
 
 block的执行中使用的也是a的指针
+
 #####总结:
+
 #####- 没有__block -- 值传递 -- 不能修改 -- 只读
+
 #####- 有__block -- 指针的传递 -- 可以修改
