@@ -50,6 +50,7 @@
     UIButton *go = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     go.backgroundColor = [UIColor yellowColor];
     [go setTitle:@"跳转" forState:UIControlStateNormal];
+    [go setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [go addTarget:self action:@selector(gotoVC2) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:go];
     go.center = self.view.center;

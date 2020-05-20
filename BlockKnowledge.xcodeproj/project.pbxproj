@@ -19,7 +19,9 @@
 		80A9EEA92474116C0034AE30 /* BlockKnowledgeVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A9EEA82474116C0034AE30 /* BlockKnowledgeVC1.m */; };
 		80A9EEAC247413830034AE30 /* BlockKnowledgeVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A9EEAB247413830034AE30 /* BlockKnowledgeVC3.m */; };
 		80A9EEAF247413AB0034AE30 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A9EEAE247413AB0034AE30 /* BaseViewController.m */; };
-		80A9EEB22474D9110034AE30 /* blockTest.c in Sources */ = {isa = PBXBuildFile; fileRef = 80A9EEB12474D9110034AE30 /* blockTest.c */; };
+		80A9EEB8247505410034AE30 /* BlockKnowledgeVC4.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A9EEB7247505410034AE30 /* BlockKnowledgeVC4.m */; };
+		80A9EEBB247536230034AE30 /* BlockExampleA.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A9EEBA247536230034AE30 /* BlockExampleA.m */; };
+		80A9EEBE247536350034AE30 /* BlockExampleB.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A9EEBD247536350034AE30 /* BlockExampleB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +66,12 @@
 		80A9EEAB247413830034AE30 /* BlockKnowledgeVC3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockKnowledgeVC3.m; sourceTree = "<group>"; };
 		80A9EEAD247413AB0034AE30 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		80A9EEAE247413AB0034AE30 /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		80A9EEB12474D9110034AE30 /* blockTest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = blockTest.c; sourceTree = "<group>"; };
+		80A9EEB6247505410034AE30 /* BlockKnowledgeVC4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockKnowledgeVC4.h; sourceTree = "<group>"; };
+		80A9EEB7247505410034AE30 /* BlockKnowledgeVC4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockKnowledgeVC4.m; sourceTree = "<group>"; };
+		80A9EEB9247536230034AE30 /* BlockExampleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockExampleA.h; sourceTree = "<group>"; };
+		80A9EEBA247536230034AE30 /* BlockExampleA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockExampleA.m; sourceTree = "<group>"; };
+		80A9EEBC247536350034AE30 /* BlockExampleB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockExampleB.h; sourceTree = "<group>"; };
+		80A9EEBD247536350034AE30 /* BlockExampleB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockExampleB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +134,12 @@
 				80A9EEA5247411570034AE30 /* BlockKnowledgeVC2.m */,
 				80A9EEAA247413830034AE30 /* BlockKnowledgeVC3.h */,
 				80A9EEAB247413830034AE30 /* BlockKnowledgeVC3.m */,
-				80A9EEB12474D9110034AE30 /* blockTest.c */,
+				80A9EEB6247505410034AE30 /* BlockKnowledgeVC4.h */,
+				80A9EEB7247505410034AE30 /* BlockKnowledgeVC4.m */,
+				80A9EEB9247536230034AE30 /* BlockExampleA.h */,
+				80A9EEBA247536230034AE30 /* BlockExampleA.m */,
+				80A9EEBC247536350034AE30 /* BlockExampleB.h */,
+				80A9EEBD247536350034AE30 /* BlockExampleB.m */,
 				80A9EE782473E66E0034AE30 /* Main.storyboard */,
 				80A9EE7B2473E6770034AE30 /* Assets.xcassets */,
 				80A9EE7D2473E6770034AE30 /* LaunchScreen.storyboard */,
@@ -286,13 +298,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				80A9EE712473E66E0034AE30 /* AppDelegate.m in Sources */,
+				80A9EEBB247536230034AE30 /* BlockExampleA.m in Sources */,
 				80A9EEA6247411570034AE30 /* BlockKnowledgeVC2.m in Sources */,
 				80A9EEA92474116C0034AE30 /* BlockKnowledgeVC1.m in Sources */,
+				80A9EEB8247505410034AE30 /* BlockKnowledgeVC4.m in Sources */,
 				80A9EEAC247413830034AE30 /* BlockKnowledgeVC3.m in Sources */,
 				80A9EE822473E6770034AE30 /* main.m in Sources */,
 				80A9EEAF247413AB0034AE30 /* BaseViewController.m in Sources */,
 				80A9EE742473E66E0034AE30 /* SceneDelegate.m in Sources */,
-				80A9EEB22474D9110034AE30 /* blockTest.c in Sources */,
+				80A9EEBE247536350034AE30 /* BlockExampleB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
